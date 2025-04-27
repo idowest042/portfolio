@@ -7,6 +7,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../Contact/ContactMe';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
+import Certification from '@/Components/Common/Certification';
 
 const Home = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -41,6 +42,7 @@ const Home = () => {
       <Banner />
       <AboutMe />
       <Skills />
+      <Certification/>
       <Projects />
       <div id="contact-me">
         <ContactMe />
