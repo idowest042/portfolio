@@ -1,0 +1,39 @@
+[
+  {
+    "image": "https://skillicons.dev/icons?i=html",
+    "name": "Html 5"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=css",
+    "name": "Css 3"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=tailwind",
+    "name": "tailwind"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=javascript",
+    "name": "javascript"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=react",
+    "name": "react"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=firebase",
+    "name": "firebase"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=nodejs",
+    "name": "Nodejs"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=expressjs",
+    "name": "Expressjs"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=mongodb",
+    "name": "Mongodb"
+  }
+
+]

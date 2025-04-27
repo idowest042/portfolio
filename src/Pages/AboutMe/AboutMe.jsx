@@ -1,0 +1,107 @@
+import ParticlesUI from '@/Animation/ParticlesUI';
+import { Heading } from '@/Components/Common/Heading';
+import ShineBorder from '@/Components/ui/shine-border';
+import { FolderKanban, Lightbulb, Rocket, Terminal } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
+import joseph from '../../assets/Images/joseph.jpg';
+
+const AboutMe = () => {
+  const location = useLocation();
+
+  return (
+    <section className={`w-11/12 mx-auto ${location.pathname === '/' ? 'mt-20' : 'my-10'}`}>
+      <div className="relative flex flex-col gap-20 lg:flex-row items-center">
+        {/* Particles */}
+        {location.pathname === '/about-me' && <ParticlesUI />}
+
+        {/* Image Section */}
+        <div className="lg:w-[30%] flex justify-center">
+          <ShineBorder borderRadius={9999} color="#38BD67" borderWidth={3} className="dark:bg-transparent bg-transparent">
+            <img className="lg:w-[320px] w-10/12 rounded-full shadow-lg" src={joseph} alt="Tariqul Islam" />
+          </ShineBorder>
+        </div>
+
+        {/* About Content Section */}
+        <div className="lg:w-[70%] flex flex-col items-center lg:items-start text-dark-lite dark:text-white-deep">
+          <Heading headingTitle="About Me" />
+          <h2 className="text-center lg:text-start text-3xl text-primary1 font-semibold leading-[48px] mb-6">Idowu Joseph Abiodun</h2>
+          <p className="text-justify text-lg font-medium leading-[31px]">
+          Self-taught, passionate junior Full Stack Developer specializing in the MERN stack. Skilled at building scalable, user-centric web applications. Strong collaborator with a commitment to clean code, continuous learning, and creative problem-solving
+          </p>
+        </div>
+      </div>
+
+      {/* Additional Information */}
+      <div className="mt-12 space-y-12">
+        {/* Skills & Expertise */}
+        <div>
+          <p className="text-justify text-lg font-medium leading-[31px]">
+            I specialize in <strong>React, JavaScript,Bootstrap and Tailwind CSS</strong>, complemented by hands-on experience with backend technologies like <strong>Node.js and MongoDB</strong>. My focus is
+            on delivering clean, efficient, and scalable solutions—whether it’s Building E-Commerce Website, optimizing performance, or integrating robust backend systems.
+          </p>
+        </div>
+
+        {/* Passion Section */}
+        <div>
+          <strong className="flex items-center gap-2 text-xl font-semibold">
+            <Lightbulb className="text-primary1" /> What Drives Me
+          </strong>
+          <ul className="mt-3 space-y-2 text-lg list-disc list-inside">
+            <li>Designing responsive and scalable web applications.</li>
+            <li>Writing clean, maintainable, and well-documented code.</li>
+            <li>Enhancing user experiences through thoughtful design and interactivity.</li>
+          </ul>
+        </div>
+
+        {/* Projects Section */}
+        <div>
+          <strong className="flex items-center gap-2 text-xl font-semibold">
+            <FolderKanban className="text-primary1" /> Featured Projects
+          </strong>
+          <ul className="mt-3 space-y-3 text-lg list-disc list-inside">
+            <li>
+              <a href="https://polarise-iota.vercel.app" target="_blank" className="text-primary2 hover:underline font-semibold">
+                Polarise Foods
+              </a>{' '}
+              – A platform food delivery application featuring resturant menu,cart functionality with an Admin-Parnel.
+            </li>
+            <li>
+              <a href="https://rattleecommercestore.vercel.app/login" target="_blank" className="text-primary2 hover:underline font-semibold">
+                Rattle
+              </a>{' '}
+              – An e-commerce platform with product management, user authentication, and an admin dashboard.
+•	Integrated secure payment gateway simulation and order management system.
+
+            </li>
+            <li>
+              <a href="https://www.westernchats.onrender.com" target="_blank" className="text-primary2 hover:underline font-semibold">
+                Western Chats
+              </a>{' '}
+              -	Built a real-time chat application using React, Node.js, and Socket.IO,
+	Implemented private messaging, user authentication, and dynamic online user tracking
+
+            </li>
+          </ul>
+        </div>
+
+        {/* Beyond Coding Section */}
+        <div>
+          <strong className="flex items-center gap-2 text-xl font-semibold">
+            <Terminal className="text-primary1" /> Beyond the Code
+          </strong>
+          <p className="mt-3 text-lg font-medium leading-[31px]">
+            Outside of development, I enjoy  reading books for self improvement, meditating, and staying informed on tech innovations. I’m a lifelong learner, always seeking to
+            refine my skills and explore new possibilities in the ever-evolving world of technology.
+          </p>
+        </div>
+
+        {/* Call to Action */}
+        <div className="flex items-center gap-3 text-xl font-semibold">
+          Ready to collaborate? Let’s build something extraordinary! <Rocket className="text-primary1" />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutMe;

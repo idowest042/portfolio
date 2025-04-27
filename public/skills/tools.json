@@ -1,0 +1,19 @@
+[
+  {
+    "image": "https://skillicons.dev/icons?i=npm",
+    "name": "NPM"
+  },
+  
+  {
+    "image": "https://skillicons.dev/icons?i=github",
+    "name": "Github"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=git",
+    "name": "Git"
+  },
+  {
+    "image": "https://skillicons.dev/icons?i=vscode",
+    "name": "VS Code"
+  }
+]
