@@ -28,7 +28,9 @@ const AboutMe = () => {
             Idowu Joseph Abiodun
           </h2>
           <p className="text-left lg:text-justify text-base md:text-lg font-medium leading-relaxed md:leading-loose">
-            Self-taught, passionate junior Full Stack Developer specializing in the MERN stack. Skilled at building scalable, user-centric web applications. Strong collaborator with a commitment to clean code, continuous learning, and creative problem-solving.
+          Self-taught full stack developer specialized in building scalable e-commerce platforms and
+marketplace applications. Passionate about creating high-performance web applications that
+drive business growth. Seeking to deliver impactful solutions to dynamic tech teams
           </p>
         </div>
       </div>

@@ -3,12 +3,12 @@ import { useState } from 'react';
 import { RainbowButton } from '../ui/rainbow-button';
 
 const Banner = () => {
-  const resumeLink = 'https://drive.google.com/uc?export=download&id=1Yq8v-buO1_gXCxHkQI9KaMqLL_ydmUXz';
+  const resumeLink = 'https://drive.google.com/uc?export=download&id=1_JguHomJ-u0k77Glz1a7jE2-atM0jgvA';
 
   const handelResumeDownload = () => {
     const link = document.createElement('a');
     link.href = resumeLink;
-    link.setAttribute('download', 'Resume of idowu joseph Abiodun.docx');
+    link.setAttribute('download', 'Resume of idowu joseph Abiodun.pdf');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -58,7 +58,7 @@ const Banner = () => {
             <a className="lg:hidden" href="mailto:idowujo042@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
               <Mail size={30} className="hero-icon lang" />
             </a>
-            <a className="hidden lg:block" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.developer@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+            <a className="hidden lg:block" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=idowujo042@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
               <Mail size={30} className="hero-icon lang" />
             </a>
           </div>
