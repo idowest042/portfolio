@@ -75,7 +75,7 @@ drive business growth. Seeking to deliver impactful solutions to dynamic tech te
               An e-commerce platform with product management, user authentication, and an admin dashboard. Integrated secure payment gateway simulation and order management system.
             </li>
             <li className="mb-4">
-              <a href="https://www.westernchats.onrender.com" target="_blank" rel="noopener noreferrer" className="block text-primary2 hover:underline font-semibold mb-1">
+              <a href="https://westernchats-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className="block text-primary2 hover:underline font-semibold mb-1">
                 Western Chats
               </a>
               Built a real-time chat application using React, Node.js, and Socket.IO. Implemented private messaging, user authentication, and dynamic online user tracking.

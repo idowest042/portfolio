@@ -41,7 +41,7 @@
     "heading": "Western Chats",
     "paragraph": "A chat application that allows users to send and receive messages in real-time. It features user authentication, private chats, and a responsive design.",
     "tools": ["Javascript", "TailwindCSS", "React", "daisyui", "socket.io", "Node.js", "Express", "MongoDB"],
-    "live": "https://westernchats.onrender.com/",
+    "live": "https://westernchats-production.up.railway.app/",
     "github": "https://github.com/idowest042/WesternChats.git",
     "details": "https://github.com/idowest042/WesternChats/tree/main#readme",
     "category": "Chat Application",
