@@ -1,5 +1,23 @@
 [
   {
+    "slug": "Elite States",
+    "image": "/assets/projects/estate.png",
+    "heading": "Elite States",
+    "paragraph": "A real estate platform that allows users to search for properties, view details, and contact agents. It features a user-friendly interface and responsive design.",
+    "tools": ["Javascript", "TailwindCSS", "React", "Framer motion", "socket.io", "Node.js", "Express", "MongoDB"],
+    "live": "https://elite-realestate.vercel.app/",
+    "github": "https://github.com/idowest042/Elite-States",
+    "details":"https://github.com/idowest042/Elite-States/tree/main#readme",
+    "category": "Real Estate",
+    "technologies": ["React", "TailwindCSS", "MongoDB", "Express", "Node.js"],
+    "projectType": "Full-stack",
+    "platforms": ["Web"],
+    "launchDate": "2025-06-11",
+    "author": "Idowu Joseph",
+    "challenges": ["Implementing a secure and efficient property search functionality.", "Ensuring responsive design for various devices."],
+    "futurePlans": ["Add a feature for users to save favorite properties.", "Implement a review system for properties."]
+  },
+  {
     "slug": "Rattle",
     "image": "/assets/projects/ecom.png",
     "heading": "Rattle",
