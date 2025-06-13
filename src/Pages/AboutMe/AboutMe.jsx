@@ -28,7 +28,7 @@ const AboutMe = () => {
             Idowu Joseph Abiodun
           </h2>
           <p className="text-left lg:text-justify text-base md:text-lg font-medium leading-relaxed md:leading-loose">
-          Self-taught full stack developer specialized in building scalable e-commerce platforms and
+          full stack developer specialized in building scalable e-commerce platforms and
 marketplace applications. Passionate about creating high-performance web applications that
 drive business growth. Seeking to deliver impactful solutions to dynamic tech teams
           </p>
@@ -56,33 +56,7 @@ drive business growth. Seeking to deliver impactful solutions to dynamic tech te
           </ul>
         </div>
 
-        {/* Projects Section */}
-        <div>
-          <strong className="flex items-center gap-2 text-lg md:text-xl font-semibold mb-2 md:mb-3">
-            <FolderKanban className="text-primary1" /> Featured Projects
-          </strong>
-          <ul className="space-y-3 text-base md:text-lg pl-5">
-            <li className="mb-4">
-              <a href="https://polarise-iota.vercel.app" target="_blank" rel="noopener noreferrer" className="block text-primary2 hover:underline font-semibold mb-1">
-                Polarise Foods
-              </a>
-              A platform food delivery application featuring restaurant menu, cart functionality with an Admin-Panel.
-            </li>
-            <li className="mb-4">
-              <a href="https://rattleecommercestore.vercel.app/login" target="_blank" rel="noopener noreferrer" className="block text-primary2 hover:underline font-semibold mb-1">
-                Rattle
-              </a>
-              An e-commerce platform with product management, user authentication, and an admin dashboard. Integrated secure payment gateway simulation and order management system.
-            </li>
-            <li className="mb-4">
-              <a href="https://westernchats-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className="block text-primary2 hover:underline font-semibold mb-1">
-                Western Chats
-              </a>
-              Built a real-time chat application using React, Node.js, and Socket.IO. Implemented private messaging, user authentication, and dynamic online user tracking.
-            </li>
-          </ul>
-        </div>
-
+  
         {/* Beyond Coding Section */}
         <div>
           <strong className="flex items-center gap-2 text-lg md:text-xl font-semibold mb-2 md:mb-3">

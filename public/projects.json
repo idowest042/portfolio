@@ -18,6 +18,24 @@
     "futurePlans": ["Add a feature for users to save favorite properties.", "Implement a review system for properties."]
   },
   {
+     "slug": "Netflix",
+      "image": "/assets/projects/neflix.png",
+      "heading": "Netflix Clone",
+      "paragraph": "A clone of the popular streaming platform, featuring user authentication, video playback, and a responsive design.",
+      "tools": ["Javascript", "TailwindCSS", "React", "daisyui", "socket.io", "Framer motion", "Fire base", "React Youtube"],
+      "live": "https://netflix-pearl-iota.vercel.app/",
+      "github": "https://github.com/idowest042/Netflix",
+      "details": "https://github.com/idowest042/Netflix/blob/main/README.md",
+      "category": "Chat Application",
+      "technologies": ["React", "TailwindCSS","React Youtube", "Framer Motion", "Firebase"],
+      "projectType": "Full-stack",
+      "platforms": ["Web"],
+      "launchDate": "2025-06-13",
+      "author": "Idowu Joseph",
+      "challenges": ["Implementing video playback functionality with responsive design.", "Ensuring smooth user authentication and session management."],
+      "futurePlans": ["Implement a recommendation system based on user preferences."]
+  },
+  {
     "slug": "Rattle",
     "image": "/assets/projects/ecom.png",
     "heading": "Rattle",
